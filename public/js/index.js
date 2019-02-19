@@ -8,7 +8,8 @@ socket.on('disconnect', function() {
 });
 
 socket.on('newMessage', function(message) {
-    console.log('new message: ', message);
-    //myMessage = JSON.stringify(message);
-    //document.getElementById("eee").innerHTML = '--> ' + myMessage;
+    console.log('new message: ', message);    
 });
+
+//myMessage = JSON.stringify(message);
+    //document.getElementById("eee").innerHTML = '--> ' + myMessage;
